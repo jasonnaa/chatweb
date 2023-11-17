@@ -8,7 +8,7 @@ node('AppServer')
 
   stage('Build and Tag')
   {
-    app = docker.build("jasonnaa/chatweb")
+    app = docker.build("jasonnaa/chatweb2")
   }
 
   stage('Post-to-dockerhub')
