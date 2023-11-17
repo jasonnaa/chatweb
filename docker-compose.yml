@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   realestate2:
-    image: 'jasonnaa/chatweb:latest'
+    image: 'jasonnaa/chatweb2:latest'
     environment:
       - "PORT:3000"
     ports:
